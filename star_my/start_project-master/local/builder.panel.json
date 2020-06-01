@@ -1,0 +1,14 @@
+{
+  "buildPath": "D:\\_My Work\\Cocos Create\\start_project\\build",
+  "debug": false,
+  "keystoreAlias": "",
+  "keystoreAliasPassword": "",
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "sourceMaps": false,
+  "template": "default",
+  "useDebugKeystore": true
+}

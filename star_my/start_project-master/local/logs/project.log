@@ -1,0 +1,122 @@
+2020-06-01T10:08:54.687Z - normal: Load ~/.CocosCreator/settings.json
+2020-06-01T10:08:54.782Z - normal: Initializing Asset Database
+2020-06-01T10:08:54.812Z - normal: checking language setting...
+2020-06-01T10:08:54.813Z - normal: Language: zh
+2020-06-01T10:08:56.925Z - success: preview server running at http://localhost:7456
+2020-06-01T10:08:56.931Z - success: protocol editor-framework registered
+2020-06-01T10:08:56.931Z - success: protocol app registered
+2020-06-01T10:08:56.931Z - success: protocol theme registered
+2020-06-01T10:08:56.931Z - success: protocol packages registered
+2020-06-01T10:08:56.932Z - success: protocol uuid registerred
+2020-06-01T10:08:56.932Z - success: protocol db registerred
+2020-06-01T10:08:56.932Z - success: protocol thumbnail registerred
+2020-06-01T10:08:56.933Z - success: protocol unpack registerred
+2020-06-01T10:08:56.933Z - success: protocol disable-commonjs registerred
+2020-06-01T10:08:57.219Z - normal: connected!
+2020-06-01T10:08:57.220Z - normal: Check project D:\Git\ustc\wechat-game\star_my\start_project-master
+2020-06-01T10:08:57.222Z - normal: Initializing project D:\Git\ustc\wechat-game\star_my\start_project-master
+2020-06-01T10:08:57.265Z - success: adapters loaded
+2020-06-01T10:08:57.289Z - success: asset-db-debugger loaded
+2020-06-01T10:08:57.407Z - success: fb-audience-network loaded
+2020-06-01T10:08:57.492Z - success: fb-live-stream loaded
+2020-06-01T10:08:57.533Z - success: google-play-instant loaded
+2020-06-01T10:08:57.542Z - success: huawei-adapter loaded
+2020-06-01T10:08:57.552Z - success: jkw-adapter loaded
+2020-06-01T10:08:57.561Z - success: jsb-adapter loaded
+2020-06-01T10:08:57.571Z - success: oppo-adapter loaded
+2020-06-01T10:08:57.596Z - success: package-manager loaded
+2020-06-01T10:08:57.607Z - success: qtt-adapter loaded
+2020-06-01T10:08:57.639Z - success: runtime-dev-tools loaded
+2020-06-01T10:08:57.671Z - success: sdkbox loaded
+2020-06-01T10:08:57.693Z - success: ui-kit-preview-extra loaded
+2020-06-01T10:08:57.715Z - success: ui-kit-preview loaded
+2020-06-01T10:08:57.725Z - success: vivo-adapter loaded
+2020-06-01T10:08:58.189Z - success: alipay-minigame loaded
+2020-06-01T10:08:58.248Z - success: assets loaded
+2020-06-01T10:08:58.251Z - success: baidugame-opendata loaded
+2020-06-01T10:08:58.254Z - success: baidugame loaded
+2020-06-01T10:08:58.259Z - success: builder loaded
+2020-06-01T10:08:58.516Z - success: cocos-services loaded
+2020-06-01T10:08:58.521Z - success: console loaded
+2020-06-01T10:08:58.523Z - success: curve-editor loaded
+2020-06-01T10:08:58.539Z - success: fb-instant-games loaded
+2020-06-01T10:08:58.542Z - success: game-window loaded
+2020-06-01T10:08:58.543Z - success: google-instant-games loaded
+2020-06-01T10:08:58.547Z - success: hierarchy loaded
+2020-06-01T10:08:58.551Z - success: huawei-runtime loaded
+2020-06-01T10:08:58.554Z - success: inspector loaded
+2020-06-01T10:08:58.656Z - success: cpk-publish loaded
+2020-06-01T10:08:58.656Z - success: keystore loaded
+2020-06-01T10:08:58.681Z - success: node-library loaded
+2020-06-01T10:08:58.682Z - success: open-recent-items loaded
+2020-06-01T10:08:58.686Z - success: oppo-runtime loaded
+2020-06-01T10:08:58.688Z - success: package-asset loaded
+2020-06-01T10:08:58.689Z - success: preferences loaded
+2020-06-01T10:08:58.691Z - success: project-importer loaded
+2020-06-01T10:08:58.692Z - success: project-settings loaded
+2020-06-01T10:08:58.712Z - success: qtt-runtime loaded
+2020-06-01T10:08:58.716Z - success: scene loaded
+2020-06-01T10:08:58.717Z - success: simulator-debugger loaded
+2020-06-01T10:08:58.718Z - success: sprite-editor loaded
+2020-06-01T10:08:58.768Z - success: store loaded
+2020-06-01T10:08:58.771Z - success: timeline loaded
+2020-06-01T10:08:58.776Z - success: vivo-runtime loaded
+2020-06-01T10:08:58.780Z - success: wechatgame-opendata loaded
+2020-06-01T10:08:58.785Z - success: wechatgame loaded
+2020-06-01T10:08:58.789Z - success: xiaomi-runtime loaded
+2020-06-01T10:09:00.378Z - success: im-plugin loaded
+2020-06-01T10:09:01.712Z - info: Cocos Service load base data!
+2020-06-01T10:09:02.379Z - normal: Initializing Cocos2d
+2020-06-01T10:09:05.750Z - normal: Initializing engine extends
+2020-06-01T10:09:08.474Z - normal: Loading packages
+2020-06-01T10:09:08.478Z - normal: Watching packages
+2020-06-01T10:09:09.116Z - normal: Run Application
+2020-06-01T10:09:19.868Z - error: Please change the definition of the property 'scoreAudio' in class 'Game'. Since v1.10,
+declaring a property in CCClass as a URL is obsolete.
+For example, if you have a property of Texture2D, the old definition is:
+    scoreAudio: cc.Texture2D,
+    // or:
+    scoreAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now you should use:
+    scoreAudio: {
+      type: cc.Texture2D, // use 'type:' to declare a Texture2D object
+      default: null,      // object's default value is null
+    },
+    at checkUrl (F:\软件工程\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:130:14)
+    at Object.exports.preprocessAttrs (F:\软件工程\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:354:9)
+    at declareProperties (F:\软件工程\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:851:16)
+    at Object.CCClass [as Class] (F:\软件工程\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:1001:5)
+    at __define (D:\Git\ustc\wechat-game\star_my\start_project-master\temp\quick-scripts\dst\assets\scripts\Game.js:24:4)
+    at D:\Git\ustc\wechat-game\star_my\start_project-master\temp\quick-scripts\dst\assets\scripts\Game.js:138:25
+    at Object.<anonymous> (D:\Git\ustc\wechat-game\star_my\start_project-master\temp\quick-scripts\dst\assets\scripts\Game.js:145:19)
+    at Object.<anonymous> (D:\Git\ustc\wechat-game\star_my\start_project-master\temp\quick-scripts\dst\assets\scripts\Game.js:147:3)
+    at Module._compile (internal/modules/cjs/loader.js:839:30)
+2020-06-01T10:09:19.869Z - warn: Can not indicate the 'cc.String' attribute for "Game.scoreAudio", which its default value is type of object.
+2020-06-01T10:09:19.872Z - error: Please change the definition of the property 'jumpAudio' in class 'Player'. Since v1.10,
+declaring a property in CCClass as a URL is obsolete.
+For example, if you have a property of Texture2D, the old definition is:
+    jumpAudio: cc.Texture2D,
+    // or:
+    jumpAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now you should use:
+    jumpAudio: {
+      type: cc.Texture2D, // use 'type:' to declare a Texture2D object
+      default: null,      // object's default value is null
+    },
+    at checkUrl (F:\软件工程\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:130:14)
+    at Object.exports.preprocessAttrs (F:\软件工程\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:354:9)
+    at declareProperties (F:\软件工程\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:851:16)
+    at Object.CCClass [as Class] (F:\软件工程\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:1001:5)
+    at __define (D:\Git\ustc\wechat-game\star_my\start_project-master\temp\quick-scripts\dst\assets\scripts\Player.js:18:4)
+    at D:\Git\ustc\wechat-game\star_my\start_project-master\temp\quick-scripts\dst\assets\scripts\Player.js:122:25
+    at Object.<anonymous> (D:\Git\ustc\wechat-game\star_my\start_project-master\temp\quick-scripts\dst\assets\scripts\Player.js:129:19)
+    at Object.<anonymous> (D:\Git\ustc\wechat-game\star_my\start_project-master\temp\quick-scripts\dst\assets\scripts\Player.js:131:3)
+    at Module._compile (internal/modules/cjs/loader.js:839:30)
+2020-06-01T10:09:19.872Z - warn: Can not indicate the 'cc.String' attribute for "Player.jumpAudio", which its default value is type of object.
+2020-06-01T10:09:34.794Z - info: shutdown preview server
