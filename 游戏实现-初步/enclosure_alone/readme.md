@@ -1,0 +1,17 @@
+单机版圈地的实现
+
+cocos creator v2.3.3
+
+
+
+注意如果player的放置位置出现了偏差可能是由于锚点不一致的问题
+
+
+
+点击鼠标让小机器人移动。
+
+它的移动路径会在地图上显示出来。
+
+此版本还未引入圈地算法。
+
+![](F:\software_engine_homework\enclosure_my\enclosure_alone\运行截图.JPG)
