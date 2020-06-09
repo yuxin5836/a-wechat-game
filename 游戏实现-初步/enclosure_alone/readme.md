@@ -14,4 +14,4 @@ cocos creator v2.3.3
 
 此版本还未引入圈地算法。
 
-![](F:\software_engine_homework\enclosure_my\enclosure_alone\运行截图.JPG)
+![](运行截图.JPG)
