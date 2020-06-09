@@ -60,7 +60,8 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "dabyT2lWpMvKAO+HkrpKXT"
+    "autoReleaseAssets": false,
+    "_id": "7211d31f-6b2d-48b9-965b-6574234666cf"
   },
   {
     "__type__": "cc.Node",
@@ -170,7 +171,7 @@
       "array": [
         0,
         0,
-        220.83647796503186,
+        223.49568352304092,
         0,
         0,
         0,
@@ -509,7 +510,7 @@
       }
     ],
     "_prefab": null,
-    "_opacity": 0,
+    "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
       "r": 255,

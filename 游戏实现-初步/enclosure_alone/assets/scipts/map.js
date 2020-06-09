@@ -1,29 +1,14 @@
-// Learn cc.Class:
-//  - https://docs.cocos.com/creator/manual/en/scripting/class.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
+var node = new Array()    //填色数组
+var Flag = new Array(100)//连通片数目最多为30，否则此处需继续增加值
+                            //第i个联通片是否是领地内的标记，为0则是 
+
+var nodeflag_num            //联通片数量的计数
+var tileSize                //地图大小
+
 
 cc.Class({
     extends: cc.Component,
-
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -47,30 +32,104 @@ cc.Class({
         var mapSize = this.tiledMap.getMapSize();
 
         //超出边界，直接返回
-        if (newTile.x < 0 || newTile.x >= mapSize.width-1) return;
-        if (newTile.y < 0 || newTile.y >= mapSize.height-1) return;
+        if (newTile.x < 0 || newTile.x >= mapSize.width) return;
+        if (newTile.y < 0 || newTile.y >= mapSize.height) return;
 
         //console.log(this.ground.getTileGIDAt(newTile))
         //1是填充块,2是非填充块
         //this.ground.setTileGIDAt(1,newTile.x,newTile.y)
 
 
-        //
-        //if()
-        //this.tryenclouse(newTile);//尝试圈地
+        if (this.ground.getTileGIDAt(newTile) == 1)
+        //如果当前位置与已填充块重叠，尝试圈地
+            this.tryenclosure();//尝试圈地
         this.playerTile = newTile;
         this.updatePlayerPos();
     },
+
+    tryenclosure: function () {
+        //console.log("try to enclosure")
+        //var Node_A = new Array();
+        nodeflag_num = 1;//联通片数量的计数 
+        for (var i = 0; i < tileSize.height; i++) {
+            node[i] = new Array();
+            for (var j = 0; j < tileSize.width; j++) {
+                node[i][j] = new Array();
+                for (var k = 0; k < 3; k++)
+                    node[i][j][k] = new Array();
+            }
+        }//相当于是Node_A[height][width][3]
+        //Node_A[height][width][0]标识该点是填充块还是非填充块
+        //[1]标识该点是哪一个联通片
+
+        for (var i = 0; i < 100; i++)
+            Flag[i] = 0;
+        //获取整个地图的填色信息
+        for (var i = 0; i < tileSize.height-1; i++) {
+            for (var j = 0; j < tileSize.width-1; j++) {
+                node[i][j][0] = 0;
+                node[i][j][1] = 0;
+                if (this.ground.getTileGIDAt(i,j) == 1)
+                    node[i][j][0] = 1;
+            }
+        }
+
+        //深度优先搜索尝试填充
+        //分别从上下左右搜寻，进行深度优先搜索
+        for (var i = 0; i < tileSize.height; i++) {
+            for (var j = 0; j < tileSize.width; j++) {
+                //console.log(i+" "+j+"node"+node[i][j][0])
+                if (node[i][j][0] == 0 && node[i][j][1] == 0) {
+                    //console.log(i+"@@@")
+                    //若未涂实色且不属于之前任何联通片，从此点搜索新联通片  
+                    this.dfs(i, j);
+                    nodeflag_num=nodeflag_num+1;
+                }
+            }
+        }
+        //console.log("!")
+        //将所有闭联通片涂实 
+        for (var i = 0; i < tileSize.height; i++) {
+            for (var j = 0; j < tileSize.width; j++) {
+                //console.log(i + " " + j + " " + node[i][j][1] + " " + Flag[node[i][j][1]])
+                if (node[i][j][1] != 0 && Flag[node[i][j][1]] == 0) {
+                    console.log("enclosure")
+                    this.ground.setTileGIDAt(1, i, j)
+                }
+            }
+        }
+    },
+
+    //搜索过程
+    dfs:function(x, y) {
+        //console.log("!!!")
+        if (node[x][y][0] == 1)//碰到自己的边
+            return;
+        if (node[x][y][1] != 0)//不重复搜索
+            return;
+        if (x == 0 || x == tileSize.width-1 || y == tileSize.height-1 || y == 0) {
+            Flag[nodeflag_num] = 1;//能到达边界，不是闭合连通片
+            return;
+        }
+        node[x][y][1] = nodeflag_num;
+        //console.log(x + " " + y + " " + nodeflag_num)
+        this.dfs(x + 1, y)
+        this.dfs(x - 1,y)
+        this.dfs(x, y - 1)
+        this.dfs(x, y + 1)
+        return;
+    },
+
 
     //鼠标事件
     onMouseDown: function (event) {
         var click_pos = event.getLocation();
         var click_posTile = this.getTilePos(click_pos);
         var newTile = cc.v2(this.playerTile.x, this.playerTile.y);
-        if (click_posTile.x > newTile.x) { newTile.x += 1; console.log("right"); }
-        else if (click_posTile.x < newTile.x) { newTile.x -= 1; console.log("left"); }
-        else if (click_posTile.y > newTile.y) { newTile.y += 1; console.log("up"); }
-        else if (click_posTile.y < newTile.y) { newTile.y -= 1; console.log("down"); }
+        if (click_posTile.x > newTile.x)      { newTile.x += 1; }
+        else if (click_posTile.x < newTile.x) { newTile.x -= 1; }
+        else if (click_posTile.y > newTile.y) { newTile.y += 1; }
+        else if (click_posTile.y < newTile.y) { newTile.y -= 1; }
         this.tryMoveToNewTile(newTile);
     },
 
@@ -101,6 +160,8 @@ cc.Class({
         console.log("start tile"+this.playerTile)
         //更新player位置
         this.updatePlayerPos();
+
+        tileSize = this.tiledMap.getMapSize();;//地图大小存储到tileSize变量中
     },
 
 
