@@ -11,6 +11,7 @@ var v_y = 0;
 cc.Class({
     extends: cc.Component,
     properties: {
+
         Rocker: {
             type: require("Rocker"),
             default: null,
@@ -20,6 +21,13 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
+
+    start:function(){
+        cc.log("!!!!");
+        //cc.log(user_name.toString());
+        //cc.log(user_code.toString());
+    },
+
     onLoad: function () {
         console.log("onLoad");
         this.player_now = this.node.getChildByName('player_now');
@@ -27,7 +35,7 @@ cc.Class({
         //console.log(this.player_now)
         this.loadMap();
         //加载地图
-
+        
         this.timer = 0;
         v_x = 1;
         v_y = 0;
@@ -42,7 +50,7 @@ cc.Class({
         if (newTile.y < 0 || newTile.y >= mapSize.height) return;
 
         //console.log(this.ground.getTileGIDAt(newTile))
-       //1是填充块,2是非填充块 
+       //1是填充块,2是非填充块
         //this.ground.setTileGIDAt(1,newTile.x,newTile.y)
 
 
@@ -139,10 +147,11 @@ cc.Class({
         //player对象层
         var player = this.tiledMap.getObjectGroup('player');
 
-        var birth_point_1 = player.getObject('birth_point_1');
+        var birth_point_1 = player.getObject('birth_point1');
 
         console.log("1");
         //像素坐标
+
         var startPos = cc.v2(birth_point_1.x, birth_point_1.y);
         console.log("startPos"+startPos);
 

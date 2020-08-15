@@ -9,12 +9,13 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-   
+
+
         Rocker:{
             type:cc.Node,
             default:null,
         },
-        
+
         Max_r:100,
     },
 
@@ -45,7 +46,7 @@ cc.Class({
            var w_pos = e.getLocation();
            var pos = this.node.convertToNodeSpaceAR(w_pos);//将世界坐标转化为父节点的相对坐标
 
-           
+
             var len = pos.mag();
             this.dir.x = pos.x / len;
             this.dir.y = pos.y / len;
