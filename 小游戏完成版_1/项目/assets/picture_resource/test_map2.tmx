@@ -18,6 +18,6 @@
   </data>
  </layer>
  <objectgroup name="player">
-  <object name="birth_point1" gid="751" x="257" y="98"/>
+  <object name="birth_point1" gid="751" x="256" y="97"/>
  </objectgroup>
 </map>

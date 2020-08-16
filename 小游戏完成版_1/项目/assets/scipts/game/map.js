@@ -62,7 +62,7 @@ cc.Class({
     },
 
     tryenclosure: function () {
-        //console.log("try to enclosure")
+       // console.log("try to enclosure")
         //var Node_A = new Array();
         nodeflag_num = 1;//联通片数量的计数
         for (var i = 0; i < tileSize.height; i++) {
@@ -83,6 +83,7 @@ cc.Class({
             for (var j = 0; j < tileSize.width; j++) {
                 node[i][j][0] = 0;
                 node[i][j][1] = 0;
+                cc.log(i*tileSize.height+j)
                 if (this.ground.getTileGIDAt(i, j) == 1)
                     node[i][j][0] = 1;
             }
@@ -101,7 +102,7 @@ cc.Class({
                 }
             }
         }
-        //console.log("!")
+        console.log("!")
         //将所有闭联通片涂实
         for (var i = 0; i < tileSize.height; i++) {
             for (var j = 0; j < tileSize.width; j++) {
@@ -149,7 +150,7 @@ cc.Class({
 
         var birth_point_1 = player.getObject('birth_point1');
 
-        console.log("1");
+        //console.log("1");
         //像素坐标
 
         var startPos = cc.v2(birth_point_1.x, birth_point_1.y);
@@ -164,6 +165,7 @@ cc.Class({
         this.updatePlayerPos();
 
         tileSize = this.tiledMap.getMapSize();;//地图大小存储到tileSize变量中
+        cc.log("!!!!"+tileSize);
     },
 
 
