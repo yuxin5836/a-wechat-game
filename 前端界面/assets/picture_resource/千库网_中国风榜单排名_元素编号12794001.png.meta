@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "9ba745c8-09f7-4486-ba6d-5cf3ddedbf2b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_中国风榜单排名_元素编号12794001": {
+      "ver": "1.0.4",
+      "uuid": "527573e5-0fde-45c8-904c-e77b478e9c81",
+      "rawTextureUuid": "9ba745c8-09f7-4486-ba6d-5cf3ddedbf2b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 366,
+      "trimY": 32,
+      "width": 1268,
+      "height": 1937,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

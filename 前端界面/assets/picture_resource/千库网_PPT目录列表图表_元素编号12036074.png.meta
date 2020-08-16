@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "8ea52b2c-8ec4-4753-8827-68d5b659786d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2500,
+  "height": 2500,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_PPT目录列表图表_元素编号12036074": {
+      "ver": "1.0.4",
+      "uuid": "8ac37d06-3a57-47d0-8a95-020bddfe17ac",
+      "rawTextureUuid": "8ea52b2c-8ec4-4753-8827-68d5b659786d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4.5,
+      "offsetY": -22,
+      "trimX": 186,
+      "trimY": 294,
+      "width": 2119,
+      "height": 1956,
+      "rawWidth": 2500,
+      "rawHeight": 2500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

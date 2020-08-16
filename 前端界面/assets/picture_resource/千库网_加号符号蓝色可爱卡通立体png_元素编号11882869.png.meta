@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "3e10c021-6ad6-4b0f-9526-4e811d03a260",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_加号符号蓝色可爱卡通立体png_元素编号11882869": {
+      "ver": "1.0.4",
+      "uuid": "d53163f3-d649-44f1-a3b6-50ca70a0ffcd",
+      "rawTextureUuid": "3e10c021-6ad6-4b0f-9526-4e811d03a260",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3,
+      "offsetY": -63.5,
+      "trimX": 295,
+      "trimY": 501,
+      "width": 1416,
+      "height": 1125,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

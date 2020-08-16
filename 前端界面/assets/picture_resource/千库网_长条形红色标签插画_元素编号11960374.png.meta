@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "c72f6c53-6d6a-41c5-b3e4-b9428c013b61",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_长条形红色标签插画_元素编号11960374": {
+      "ver": "1.0.4",
+      "uuid": "902c78bc-bf1d-4e88-9f06-d0a9a6fda475",
+      "rawTextureUuid": "c72f6c53-6d6a-41c5-b3e4-b9428c013b61",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 134,
+      "trimX": 60,
+      "trimY": 399,
+      "width": 1880,
+      "height": 934,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

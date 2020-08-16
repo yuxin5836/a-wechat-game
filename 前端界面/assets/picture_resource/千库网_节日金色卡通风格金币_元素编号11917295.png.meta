@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "fb3e4139-923e-4a36-9654-217e0bcb0e62",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_节日金色卡通风格金币_元素编号11917295": {
+      "ver": "1.0.4",
+      "uuid": "77d52998-01f5-48ae-a9f8-24a3a598e191",
+      "rawTextureUuid": "fb3e4139-923e-4a36-9654-217e0bcb0e62",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -1,
+      "trimX": 388,
+      "trimY": 216,
+      "width": 1225,
+      "height": 1570,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
