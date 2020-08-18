@@ -1,12 +1,3 @@
-// Learn cc.Class:
-//  - https://docs.cocos.com/creator/manual/en/scripting/class.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
-
-
 //如果加上了window就相当于声明成了全局变量
 window.user_name;
 window.user_code;
@@ -37,7 +28,7 @@ cc.Class({
     },
 
 
-    /*
+    
         //初始化与服务器建立连接
         initSocket: function(){
             if(window.WebSocket){
@@ -71,6 +62,6 @@ cc.Class({
                     alert("浏览器不支持WebSocket！");
                 }
             }
-            */
+            
 
 });
