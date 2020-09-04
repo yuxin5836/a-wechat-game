@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "852c55e8-eb56-43a6-96bc-502c85b62927",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 3043,
+  "height": 3000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_古代书卷毛笔写字_元素编号12797433": {
+      "ver": "1.0.4",
+      "uuid": "9fcf26a0-c354-4bbb-b45f-a902597f3874",
+      "rawTextureUuid": "852c55e8-eb56-43a6-96bc-502c85b62927",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 4.5,
+      "offsetY": -43,
+      "trimX": 49,
+      "trimY": 377,
+      "width": 2954,
+      "height": 2332,
+      "rawWidth": 3043,
+      "rawHeight": 3000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

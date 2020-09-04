@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "fa80c956-5e3e-4211-b1e0-259f6abcf722",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_圆圆的金币免抠图_元素编号11801003": {
+      "ver": "1.0.4",
+      "uuid": "86f885e8-c30c-4579-af02-e90806d5eee6",
+      "rawTextureUuid": "fa80c956-5e3e-4211-b1e0-259f6abcf722",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -39,
+      "offsetY": -27.5,
+      "trimX": 326,
+      "trimY": 336,
+      "width": 1270,
+      "height": 1383,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

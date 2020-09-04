@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "c1a2bd77-f358-4b7c-b365-e48c2844c45b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 3000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_钱袋子的金融插画_元素编号11858680": {
+      "ver": "1.0.4",
+      "uuid": "8da17aa5-b112-4b5f-8f61-d6721e07fd65",
+      "rawTextureUuid": "c1a2bd77-f358-4b7c-b365-e48c2844c45b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 35,
+      "offsetY": -97.5,
+      "trimX": 768,
+      "trimY": 366,
+      "width": 1534,
+      "height": 1463,
+      "rawWidth": 3000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

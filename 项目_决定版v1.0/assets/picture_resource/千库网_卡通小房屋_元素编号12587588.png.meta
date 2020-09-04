@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "be0928e7-6ce4-4744-89ec-da17440970db",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_卡通小房屋_元素编号12587588": {
+      "ver": "1.0.4",
+      "uuid": "3f5effe7-80d6-4b7e-859f-b4a709e40f49",
+      "rawTextureUuid": "be0928e7-6ce4-4744-89ec-da17440970db",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 7,
+      "offsetY": 32,
+      "trimX": 98,
+      "trimY": 189,
+      "width": 1818,
+      "height": 1558,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

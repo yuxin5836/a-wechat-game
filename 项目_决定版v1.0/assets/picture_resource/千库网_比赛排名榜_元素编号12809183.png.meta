@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "9bfebe08-8d04-449f-a2a5-7a9f4529096b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_比赛排名榜_元素编号12809183": {
+      "ver": "1.0.4",
+      "uuid": "4444511b-9062-43a4-8c71-a32a0b09875f",
+      "rawTextureUuid": "9bfebe08-8d04-449f-a2a5-7a9f4529096b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5,
+      "offsetY": 87.5,
+      "trimX": 31,
+      "trimY": 197,
+      "width": 1928,
+      "height": 1431,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

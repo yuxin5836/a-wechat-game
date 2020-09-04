@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "b3c27cbf-d41c-43fe-bbd4-0c6472e17f8d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 3100,
+  "height": 3906,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_PPT分类条例标签_元素编号12567835": {
+      "ver": "1.0.4",
+      "uuid": "6b09a051-abea-4c3e-a8d8-402b9ed0ed04",
+      "rawTextureUuid": "b3c27cbf-d41c-43fe-bbd4-0c6472e17f8d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 81.5,
+      "offsetY": 99.5,
+      "trimX": 394,
+      "trimY": 608,
+      "width": 2475,
+      "height": 2491,
+      "rawWidth": 3100,
+      "rawHeight": 3906,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
