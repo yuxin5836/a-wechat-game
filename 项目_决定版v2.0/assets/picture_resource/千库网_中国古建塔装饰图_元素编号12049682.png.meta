@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "c166d782-9d2f-43d1-9192-a50d1c82539a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2362,
+  "height": 2362,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_中国古建塔装饰图_元素编号12049682": {
+      "ver": "1.0.4",
+      "uuid": "c19e444a-b66f-4490-a880-548075c753eb",
+      "rawTextureUuid": "c166d782-9d2f-43d1-9192-a50d1c82539a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 35.5,
+      "offsetY": -106.5,
+      "trimX": 71,
+      "trimY": 256,
+      "width": 2291,
+      "height": 2063,
+      "rawWidth": 2362,
+      "rawHeight": 2362,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

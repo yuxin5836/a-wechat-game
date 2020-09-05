@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "9a57e439-2629-4059-a23f-558785fbfd23",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_卡通高塔_元素编号12089149": {
+      "ver": "1.0.4",
+      "uuid": "dc5973aa-8508-47cc-889c-b771bebd77d1",
+      "rawTextureUuid": "9a57e439-2629-4059-a23f-558785fbfd23",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -126.5,
+      "offsetY": 4,
+      "trimX": 200,
+      "trimY": 352,
+      "width": 1347,
+      "height": 1288,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

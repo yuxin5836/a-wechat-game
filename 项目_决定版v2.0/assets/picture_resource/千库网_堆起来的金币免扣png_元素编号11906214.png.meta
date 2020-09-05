@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "e022e26d-af1a-44a2-8a70-fef2b6a95db1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_堆起来的金币免扣png_元素编号11906214": {
+      "ver": "1.0.4",
+      "uuid": "a31cadd4-dff4-4c70-9cc8-9034b870f52b",
+      "rawTextureUuid": "e022e26d-af1a-44a2-8a70-fef2b6a95db1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 52.5,
+      "offsetY": -97,
+      "trimX": 412,
+      "trimY": 626,
+      "width": 1281,
+      "height": 942,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

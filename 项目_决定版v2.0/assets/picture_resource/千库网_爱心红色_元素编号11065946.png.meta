@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "7fbf166a-a507-4040-8206-023a561f27fb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2500,
+  "height": 2500,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_爱心红色_元素编号11065946": {
+      "ver": "1.0.4",
+      "uuid": "51472e36-bd4c-4742-a603-58686cfe3c0d",
+      "rawTextureUuid": "7fbf166a-a507-4040-8206-023a561f27fb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 62.5,
+      "offsetY": 146.5,
+      "trimX": 541,
+      "trimY": 350,
+      "width": 1543,
+      "height": 1507,
+      "rawWidth": 2500,
+      "rawHeight": 2500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

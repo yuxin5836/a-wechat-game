@@ -22,3 +22,11 @@
 所以我放到了我的一个仓库中
 
 链接：https://github.com/srand-time/java-primer-study/tree/master/圈地小游戏带服务器版_1
+
+
+
+2020/9/5
+
+项目决定版1.0添加了game over界面
+
+2.0添加了实时得分和得分音效

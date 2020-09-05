@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "bffe617f-458c-44c1-b00c-2ee261642055",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1000,
+  "height": 1000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_卡通古典的建筑物_元素编号12552488": {
+      "ver": "1.0.4",
+      "uuid": "11052911-0c9b-4dda-ae09-2e232d332108",
+      "rawTextureUuid": "bffe617f-458c-44c1-b00c-2ee261642055",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -71.5,
+      "trimX": 109,
+      "trimY": 167,
+      "width": 782,
+      "height": 809,
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "3eb050fc-cf59-4453-8983-b103d68ab5c2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2362,
+  "height": 2362,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_卡通手绘铜钱元宝插画_元素编号11393123": {
+      "ver": "1.0.4",
+      "uuid": "22472fae-0167-47d1-99c3-0ea90bf6987f",
+      "rawTextureUuid": "3eb050fc-cf59-4453-8983-b103d68ab5c2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6.5,
+      "offsetY": -53.5,
+      "trimX": 157,
+      "trimY": 259,
+      "width": 2061,
+      "height": 1951,
+      "rawWidth": 2362,
+      "rawHeight": 2362,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

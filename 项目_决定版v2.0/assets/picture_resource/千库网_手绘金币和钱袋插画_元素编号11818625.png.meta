@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "f86e65fc-6993-487b-a4fc-2c2a292453f0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2000,
+  "height": 2000,
+  "platformSettings": {},
+  "subMetas": {
+    "千库网_手绘金币和钱袋插画_元素编号11818625": {
+      "ver": "1.0.4",
+      "uuid": "7275bfb2-0f11-46fd-8483-a6db10a35b56",
+      "rawTextureUuid": "f86e65fc-6993-487b-a4fc-2c2a292453f0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -9,
+      "offsetY": -26.5,
+      "trimX": 146,
+      "trimY": 219,
+      "width": 1690,
+      "height": 1615,
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
